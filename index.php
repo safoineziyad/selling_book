@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       exit;
 
     default:
-      header("Location: index.html"); // fallback
+      header("Location: index.html");
       exit;
   }
 }
