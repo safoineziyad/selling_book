@@ -1,0 +1,108 @@
+* {
+    text-decoration: none;   
+ }
+body {
+  background-color: #191970;
+  margin: 0;
+}
+
+.navbar {
+  background: #CCBB42;
+  font-family: 'JetBrains Mono', monospace;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #644117;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #CCBB42;
+  font-family: Hack, hack, monospace;
+  font-size: 40px;
+}
+
+.book-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  background-color: #202060;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.book-details {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.book-details h4 {
+  color: #CCBB42;
+  font-family: Hack, hack, monospace;
+}
+
+.button {
+  align-self: flex-start;
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Hack, hack, monospace;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: brown;
+  background-color: #CCBB42;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40px;
+  border-color: black;
+  padding: 16px 28px;
+  transition: 0.2s;
+  box-shadow: -4px -2px, 16px 0px #ffffff, 4px 2px 16px 0px rgb(95, 157, 231 / 48%);
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+button:hover {
+  color: #516d91;
+  background-color: orange;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95, 157, 231 / 48%);
+}
+
+
+button:active {
+  box-shadow: none;
+}
