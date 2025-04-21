@@ -7,6 +7,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       header("Location: ./html/bookworm.html");
       exit;
 
+    case 'book2':
+      header("Location: ./html/blitz.html");
+      exit;
+
     default:
       header("Location: index.html");
       exit;
