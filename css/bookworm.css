@@ -19,6 +19,23 @@ body {
   justify-content: space-between;
 }
 
+.navdiv button {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  background-color: gold;
+  margin-right: 30px;
+  border-radius: 10px;
+  font-family: Hack, hack, monospace;
+  font-size: 22px;
+}
+
+.navdiv button:hover {
+  background-color: brown;
+  font-family: Hack, hack, monospace;
+  color: black;
+}
+
 li {
   list-style: none;
   display: inline-block;
@@ -66,6 +83,13 @@ h1 {
 .book-details h4 {
   color: #CCBB42;
   font-family: Hack, hack, monospace;
+}
+
+.book-details h2 {
+  color: #CCBB42;
+  font-family: Hack, hack, monospace;
+  margin-left: 5px;
+  padding-top: 27px;
 }
 
 .button {
