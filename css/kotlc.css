@@ -55,43 +55,46 @@ h1 {
   font-size: 40px;
 }
 
-.books {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 40px;
-}
-
 .book-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
   background-color: #202060;
-  padding: 20px;
   border-radius: 16px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-  width: 200px;
 }
 
 .book-card img {
-  max-height: 250px;
-  object-fit: cover;
-  margin-bottom: 20px;
+  width: 300px;  
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 8px; 
 }
 
-.book-title {
+.book-details {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.book-details h4 {
   color: #CCBB42;
   font-family: Hack, hack, monospace;
-  font-size: 20px;
-  text-align: center;
-  height: 60px;
-  margin-top: 10px;
-  padding-bottom: 20px;
 }
 
-.info-button {
-  margin-top: auto;
+.book-details h2 {
+  color: #CCBB42;
+  font-family: Hack, hack, monospace;
+  margin-left: 5px;
+  padding-top: 27px;
+}
+
+.button {
+  align-self: flex-start;
+  margin-top: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -111,6 +114,12 @@ h1 {
   box-shadow: -4px -2px, 16px 0px #ffffff, 4px 2px 16px 0px rgb(95, 157, 231 / 48%);
 }
 
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 button:hover {
   color: #516d91;
@@ -121,9 +130,4 @@ button:hover {
 
 button:active {
   box-shadow: none;
-}
-
-h3 {
- color: #CCBB42; 
- font-family: Hack, hack, monospace;
 }
