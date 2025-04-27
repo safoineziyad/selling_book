@@ -15,7 +15,10 @@
       <li><a href="#">New Arrivals</a></li>
       <li><a href="html/contact.html">Contact</a></li>
     </ul>
-    <button type="menu"><img src="img/shopping-cart.png" alt="">CART</button>
+    <form action="http://localhost:9000/index.php" method="post">
+      <input type="hidden" name="cart" value="cart-empty">
+    <button type="submit"><img src="img/shopping-cart.png" alt="">CART</button>
+    </form>
     </div>
   </nav>
 <h1>Book Galaxy</h1>
