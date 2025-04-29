@@ -1,5 +1,8 @@
 <?php
+//learn more button redirect
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+  if (isset($_POST['book'])) {
   $book = $_POST['book'];
 
   switch ($book) {
@@ -25,6 +28,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     default:
       header("Location: index.html");
       exit;
+   }
+ }
+
+//cart button redirect
+  if (isset($_POST['cart'])) {
+    $cart = $_POST['cart'];
+
+    switch ($cart) {
+      case 'cart-empty':
+        header("Location: ./html/cart.php");
+        exit;
+      
+      default:
+        header("Location: index.html");
+        exit;
+    }
   }
 }
+
 ?>
