@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     switch ($cart) {
       case 'cart-empty':
-        header("Location: ./html/cart.html");
+        header("Location: ./html/cart.php");
         exit;
       
       default:
