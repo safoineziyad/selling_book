@@ -7,6 +7,6 @@
 - [x] add a cart button
 - [x] add logic to the buttons to add books to cart
 - [x] about us page
-- [] new arrivals page
-- [] delete things from the cart
-- [] add a check out page
+- [ ] new arrivals page
+- [ ] delete things from the cart
+- [ ] add a check out page
