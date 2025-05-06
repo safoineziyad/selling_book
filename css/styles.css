@@ -2,7 +2,7 @@
     text-decoration: none;   
  }
 body {
-  background-color: #191970;
+  background-color: #27548A;
   margin: 0;
 }
 
@@ -67,7 +67,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #202060;
+  background-color: #27548A;
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
@@ -113,7 +113,7 @@ h1 {
 
 
 button:hover {
-  color: #516d91;
+  color: #27548A;
   background-color: orange;
   box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95, 157, 231 / 48%);
 }
