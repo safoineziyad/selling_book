@@ -3,7 +3,7 @@
  }
 
 body {
-    background-color: #27548A;
+    background-color: #191970;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ li a {
 }
 
 .about-section {
-    background-color: #27548A;
+    background-color: #202060;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -84,7 +84,7 @@ li a {
 }
 
 .about-container h3 {
-  color: #27548A;
+  color: #3498db;
   align-self: flex-start;
   margin-top: 20px;
   align-items: center;

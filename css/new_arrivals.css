@@ -1,10 +1,9 @@
 * {
     text-decoration: none;   
  }
-
 body {
-    background-color: #191970;
-    margin: 0;
+  background-color: #191970;
+  margin: 0;
 }
 
 .navbar {
@@ -20,6 +19,23 @@ body {
   justify-content: space-between;
 }
 
+.navdiv button {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  background-color: gold;
+  margin-right: 30px;
+  border-radius: 10px;
+  font-family: Hack, hack, monospace;
+  font-size: 22px;
+}
+
+.navdiv button:hover {
+  background-color: brown;
+  font-family: Hack, hack, monospace;
+  color: black;
+}
+
 li {
   list-style: none;
   display: inline-block;
@@ -33,15 +49,10 @@ li a {
 }
 
 h1 {
+  margin-top: 20%;
   text-align: center;
   color: #CCBB42;
   font-family: Hack, hack, monospace;
   font-size: 40px;
 }
 
-.contact-info h3 {
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 25px;
-  text-align: center;
-}
